@@ -4,6 +4,6 @@ set -euo pipefail
 REGION="${REGION:-ap-south-1}"
 aws s3 mb "s3://${BUCKET}" --region "${REGION}" || true
 aws s3 website "s3://${BUCKET}" --index-document index.html
-aws s3 sync ./site "s3://${BUCKET}/" --delete --exclude 'config.example.js'
+aws s3 sync . "s3://${BUCKET}/" --delete --exclude '.git/*' --exclude '.gitignore' --exclude 'README.md' --exclude 'PROJECT-SUBMISSION.md' --exclude 'config.example.js' --exclude 'aws/*' --exclude 'site/*'
 echo "Uploaded WorldScope to s3://${BUCKET}/"
-echo "Configure bucket access / CloudFront using the current AWS S3 static website guidance."
+echo "Configure bucket access deliberately; use CloudFront for HTTPS."
