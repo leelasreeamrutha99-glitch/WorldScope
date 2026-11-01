@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "WorldScope curated cities and landmarks",
+  "features": [
+    {"type":"Feature","properties":{"name":"New York City","country":"United States","kind":"City","description":"Global centre for culture, finance and media.","population_note":"Large metropolitan area"},"geometry":{"type":"Point","coordinates":[-74.006,40.7128]}},
+    {"type":"Feature","properties":{"name":"London","country":"United Kingdom","kind":"City","description":"Historic capital and international cultural hub."},"geometry":{"type":"Point","coordinates":[-0.1276,51.5072]}},
+    {"type":"Feature","properties":{"name":"Tokyo","country":"Japan","kind":"City","description":"Major global city known for technology, design and culture."},"geometry":{"type":"Point","coordinates":[139.6917,35.6895]}},
+    {"type":"Feature","properties":{"name":"Singapore","country":"Singapore","kind":"City","description":"Island city-state and major transport and business hub."},"geometry":{"type":"Point","coordinates":[103.8198,1.3521]}},
+    {"type":"Feature","properties":{"name":"Mumbai","country":"India","kind":"City","description":"India's major financial and cultural centre."},"geometry":{"type":"Point","coordinates":[72.8777,19.076]}},
+    {"type":"Feature","properties":{"name":"Sydney","country":"Australia","kind":"City","description":"Harbour city and international destination."},"geometry":{"type":"Point","coordinates":[151.2093,-33.8688]}},
+    {"type":"Feature","properties":{"name":"Cape Town","country":"South Africa","kind":"City","description":"Coastal city beneath Table Mountain."},"geometry":{"type":"Point","coordinates":[18.4241,-33.9249]}},
+    {"type":"Feature","properties":{"name":"São Paulo","country":"Brazil","kind":"City","description":"One of the largest urban centres in the Americas."},"geometry":{"type":"Point","coordinates":[-46.6333,-23.5505]}},
+    {"type":"Feature","properties":{"name":"Dubai","country":"United Arab Emirates","kind":"City","description":"International city and regional transport hub."},"geometry":{"type":"Point","coordinates":[55.2708,25.2048]}},
+    {"type":"Feature","properties":{"name":"Paris","country":"France","kind":"City","description":"European capital known for art, architecture and culture."},"geometry":{"type":"Point","coordinates":[2.3522,48.8566]}},
+    {"type":"Feature","properties":{"name":"Christ the Redeemer","country":"Brazil","kind":"Landmark","description":"Monument overlooking Rio de Janeiro."},"geometry":{"type":"Point","coordinates":[-43.2105,-22.9519]}},
+    {"type":"Feature","properties":{"name":"Eiffel Tower","country":"France","kind":"Landmark","description":"Iconic iron tower on the Champ de Mars in Paris."},"geometry":{"type":"Point","coordinates":[2.2945,48.8584]}},
+    {"type":"Feature","properties":{"name":"Taj Mahal","country":"India","kind":"Landmark","description":"Mausoleum and UNESCO World Heritage Site in Agra."},"geometry":{"type":"Point","coordinates":[78.0421,27.1751]}},
+    {"type":"Feature","properties":{"name":"Great Pyramid of Giza","country":"Egypt","kind":"Landmark","description":"Ancient pyramid on the Giza plateau."},"geometry":{"type":"Point","coordinates":[31.1342,29.9792]}},
+    {"type":"Feature","properties":{"name":"Machu Picchu","country":"Peru","kind":"Landmark","description":"Inca citadel in the Andes."},"geometry":{"type":"Point","coordinates":[-72.545,-13.1631]}},
+    {"type":"Feature","properties":{"name":"Sydney Opera House","country":"Australia","kind":"Landmark","description":"Performing arts centre on Sydney Harbour."},"geometry":{"type":"Point","coordinates":[151.2153,-33.8568]}},
+    {"type":"Feature","properties":{"name":"Petra","country":"Jordan","kind":"Landmark","description":"Archaeological city carved into rose-coloured rock."},"geometry":{"type":"Point","coordinates":[35.4444,30.3285]}},
+    {"type":"Feature","properties":{"name":"Angkor Wat","country":"Cambodia","kind":"Landmark","description":"Temple complex near Siem Reap."},"geometry":{"type":"Point","coordinates":[103.867,13.4125]}},
+    {"type":"Feature","properties":{"name":"Statue of Liberty","country":"United States","kind":"Landmark","description":"Monument on Liberty Island in New York Harbor."},"geometry":{"type":"Point","coordinates":[-74.0445,40.6892]}},
+    {"type":"Feature","properties":{"name":"Burj Khalifa","country":"United Arab Emirates","kind":"Landmark","description":"Skyscraper in Downtown Dubai."},"geometry":{"type":"Point","coordinates":[55.2744,25.1972]}}
+  ]
+}
